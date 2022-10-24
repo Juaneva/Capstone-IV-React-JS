@@ -33,7 +33,3 @@ These were the detailed instructions for the capstone project:
 ## How to contribute
 
 By all means, feel free to request improvements or indeed make them yourself! To make a request, open a new issue on the repository. To make an improvement, submit a pull request.
-
-## Credits
-
-Huge thanks to [Martin](https://github.com/martink-rsa) for his code review and general advice.
