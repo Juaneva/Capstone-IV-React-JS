@@ -10,7 +10,7 @@ test("SingleUser is shown", () => {
     name: "Juaneva",
     login: "Juaneva",
     avatar: "https://avatars.githubusercontent.com/u/68243499?v=4",
-    url: "https://api.github.com/users/juaneva",
+    url: "https://api.github.com/users/Juaneva",
     source: "Github",
   };
   const tree = renderer
@@ -38,7 +38,7 @@ test("displayUser fetches data correctly", () => {
         name: "Juaneva",
         login: "Juaneva",
         avatar: "https://avatars.githubusercontent.com/u/68243499?v=4",
-        url: "https://api.github.com/users/juaneva",
+        url: "https://api.github.com/users/Juaneva",
         source: "Github",
       });
     });

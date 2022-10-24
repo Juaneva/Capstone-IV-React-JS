@@ -1,11 +1,11 @@
 import React from "react";
+import { useState } from "react";
 import { SearchBar } from "./components/SearchBar";
 import { SearchResults } from "./components/SearchResults";
 import { SingleUser } from "./components/SingleUser";
 import { SingleRepo } from "./components/SingleRepo";
 import "./App.css";
 import { getData } from "./utils/getData.js";
-import { useState } from "react";
 
 function App() {
   // Declare the various state hooks

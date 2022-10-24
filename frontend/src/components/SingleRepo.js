@@ -1,6 +1,6 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import { CommitList } from "./CommitList";
-import { useState } from "react";
 import PropTypes from "prop-types";
 import { getData } from "../utils/getData.js";
 
@@ -14,7 +14,7 @@ export function SingleRepo(props) {
 
   //As soon as the component is rendered, this function will run and fetch
   //the list of commits to display.
-  React.useEffect(() => {
+  useEffect(() => {
     //Nest an async function within useEffect, because useEffect is synchronous
     const fetchData = async () => {
       //Construct the server endpoint url using the props

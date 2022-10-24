@@ -5,7 +5,7 @@ exports[`SingleUser is shown 1`] = `
   className="single-user"
 >
   <h2>
-    juaneva
+    Juaneva
   </h2>
   <div
     className="user-details"
@@ -17,9 +17,9 @@ exports[`SingleUser is shown 1`] = `
     />
     <p>
       <a
-        href="https://api.github.com/users/juaneva"
+        href="https://api.github.com/users/Juaneva"
       >
-        https://api.github.com/users/juaneva
+        https://api.github.com/users/Juaneva
       </a>
     </p>
     <h3>

@@ -1,8 +1,8 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import { RepoList } from "./RepoList";
 import PropTypes from "prop-types";
 import { getData } from "../utils/getData.js";
-import { useEffect, useState } from "react";
 
 //This component takes a prop in the form of a user object, and displays
 //its details. It also takes a prop with the backToSearch and DisplayRepo
